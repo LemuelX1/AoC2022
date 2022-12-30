@@ -17,6 +17,8 @@ for x in options:
     x = x.split()
     if x[0] == 'B':
         rpsmath.append(value["B"])
+    elif x[1] == 'Y':
+        rpsmath.append(value["Y"])
 
 
 print(rpsmath)
